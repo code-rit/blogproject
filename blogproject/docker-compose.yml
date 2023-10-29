@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  # Django web application
+  web:
+    image: django:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blogweb
+    command: python manage.py runserver 0.0.0.0:7000
+    volumes:
+      - .:/blogproject
+    ports:
+      - "7000:7000"
+    depends_on:
+      - db
+    environment:
+      - DEBUG=True
+      - DJANGO_DB_HOST=db
+      - DJANGO_DB_PORT=5432
+      - DJANGO_DB_NAME=blogdb
+      - DJANGO_DB_USER=root
+      - DJANGO_DB_PASSWORD=pa55word
+
+  # PostgreSQL database
+  db:
+    image: postgres:15
+    container_name: postgres-db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=blogdb
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=pa55word
+
+  # pgAdmin for PostgreSQL management
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    ports:
+      - "8080:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@pgadmin.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+
+volumes:
+  postgres_data:
