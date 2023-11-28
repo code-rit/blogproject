@@ -888,3 +888,1024 @@ Watching for file changes with StatReloader
 /blogproject/blog/views.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+/blogproject/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/blogproject/blog/filters.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/filters.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/filters.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/filters.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/filters.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/blogproject/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/blogproject/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2218
+Not Found: /blog/article
+"GET /blog/article HTTP/1.1" 404 2277
+"GET /blog/articles HTTP/1.1" 301 0
+Internal Server Error: /blog/articles/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 701, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 633, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django_filters/rest_framework/backends.py", line 81, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+"GET /blog/articles/ HTTP/1.1" 500 91758
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /aadmin
+"GET /aadmin HTTP/1.1" 404 2203
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4345
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9163
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/auth/user/ HTTP/1.1" 200 13389
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/ HTTP/1.1" 200 9163
+"GET /admin/blog/article/ HTTP/1.1" 200 9494
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/ HTTP/1.1" 200 9163
+"GET /admin/blog/article/ HTTP/1.1" 200 9494
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/add/ HTTP/1.1" 200 20771
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7558
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6911
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/add/?_to_field=id&_popup=1 HTTP/1.1" 200 14915
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7558
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6911
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/add/?_to_field=id&_popup=1 HTTP/1.1" 200 14915
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21349
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/ HTTP/1.1" 200 9494
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/add/ HTTP/1.1" 200 20771
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21262
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"POST /zopper/kits/warranty_list HTTP/1.1" 400 60999
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:7000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /zopper/kits/warranty_list
+"GET /zopper/kits/warranty_list HTTP/1.1" 400 61590
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2218
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9163
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /admin/blog/category/ HTTP/1.1" 200 9501
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 9163
+"GET /admin/blog/article/ HTTP/1.1" 200 9494
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/add/ HTTP/1.1" 200 20771
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"POST /admin/blog/article/add/ HTTP/1.1" 200 21275
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2218
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9163
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/blog/article/ HTTP/1.1" 200 9494
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/blog/article/add/ HTTP/1.1" 200 20615
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/blog/article/add/ HTTP/1.1" 302 0
+"GET /admin/blog/article/ HTTP/1.1" 200 12247
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/blog/article/1/change/ HTTP/1.1" 200 20887
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7558
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6960
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/userprofile/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7133
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7790
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6934
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/userprofile/add/?_to_field=id&_popup=1 HTTP/1.1" 200 342
+"GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+"GET /admin/blog/article/1/change/ HTTP/1.1" 200 20887
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7611
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7761
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7585
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/blog/comment/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "likes_id" of relation "blog_comment" violates not-null constraint
+DETAIL:  Failing row contains (1, badhiya, null, 1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "likes_id" of relation "blog_comment" violates not-null constraint
+DETAIL:  Failing row contains (1, badhiya, null, 1).
+
+"POST /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 500 176392
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7585
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/comment/add/?_to_field=id&_popup=1 HTTP/1.1" 200 338
+"GET /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 200 5047
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 200 5200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 200 5047
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 200 5200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4995
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/blog/like/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "dislikecount" of relation "blog_like" violates not-null constraint
+DETAIL:  Failing row contains (1, 2, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "dislikecount" of relation "blog_like" violates not-null constraint
+DETAIL:  Failing row contains (1, 2, null).
+
+"POST /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 500 175390
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4995
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/like/add/?_to_field=id&_popup=1 HTTP/1.1" 200 335
+"GET /admin/blog/like/2/change/?_to_field=id HTTP/1.1" 200 11129
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/ HTTP/1.1" 200 10384
+"GET /admin/blog/article/ HTTP/1.1" 200 12037
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/1/change/ HTTP/1.1" 200 20982
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/article/1/change/ HTTP/1.1" 302 0
+"GET /admin/blog/article/ HTTP/1.1" 200 12249
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/category/ HTTP/1.1" 200 9501
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/category/add/ HTTP/1.1" 200 10881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 11205
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/category/add/ HTTP/1.1" 200 10881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 11472
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/category/add/ HTTP/1.1" 200 10881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 11740
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/category/add/ HTTP/1.1" 200 10881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 12025
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/ HTTP/1.1" 200 11183
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/notifications/ HTTP/1.1" 200 9536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/media/ HTTP/1.1" 200 9480
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/like/ HTTP/1.1" 200 10978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/media/ HTTP/1.1" 200 9480
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/media/add/ HTTP/1.1" 200 10250
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/like/ HTTP/1.1" 200 10978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/follower/ HTTP/1.1" 200 9501
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/follower/add/ HTTP/1.1" 200 11285
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/follower/add/ HTTP/1.1" 200 11285
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/follower/add/ HTTP/1.1" 302 0
+"GET /admin/blog/follower/ HTTP/1.1" 200 11017
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/follower/ HTTP/1.1" 200 9569
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/blog/follower/ HTTP/1.1" 302 0
+"GET /admin/blog/follower/ HTTP/1.1" 200 9639
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/article/ HTTP/1.1" 200 12037
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/follower/ HTTP/1.1" 200 9501
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/follower/add/ HTTP/1.1" 200 11285
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/follower/add/ HTTP/1.1" 302 0
+"GET /admin/blog/follower/ HTTP/1.1" 200 11017
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/ HTTP/1.1" 200 11183
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/add/ HTTP/1.1" 200 12804
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/userprofile/add/ HTTP/1.1" 302 0
+"GET /admin/blog/userprofile/ HTTP/1.1" 200 11709
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/add/ HTTP/1.1" 200 12804
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/userprofile/add/ HTTP/1.1" 302 0
+"GET /admin/blog/userprofile/ HTTP/1.1" 200 12011
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/ HTTP/1.1" 200 11140
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/add/ HTTP/1.1" 200 13593
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/blog/comment/add/ HTTP/1.1" 302 0
+"GET /admin/blog/comment/ HTTP/1.1" 200 11653
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/3/change/ HTTP/1.1" 200 13840
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6934
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/userprofile/1/change/?_to_field=id&_popup=1 HTTP/1.1" 200 6967
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/blog/comment/ HTTP/1.1" 200 11443
+"GET /admin/blog/comment/add/ HTTP/1.1" 200 13593
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/ HTTP/1.1" 200 12161
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /blog
+"GET /blog HTTP/1.1" 404 2197
+Not Found: /blog/
+"GET /blog/ HTTP/1.1" 404 2256
+"GET /blog/articles HTTP/1.1" 301 0
+Internal Server Error: /blog/articles/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 701, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 633, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django_filters/rest_framework/backends.py", line 81, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+"GET /blog/articles/ HTTP/1.1" 500 92806
+Internal Server Error: /blog/articles/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 701, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/renderers.py", line 633, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django_filters/rest_framework/backends.py", line 81, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+"GET /blog/articles/ HTTP/1.1" 500 92806
+/blogproject/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/blogproject/blog/views.py changed, reloading.
+Watching for file changes with StatReloader

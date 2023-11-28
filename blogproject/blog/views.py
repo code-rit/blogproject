@@ -1,10 +1,13 @@
-from django.shortcuts import render
-from rest_framework import status as drf_response_status
-from rest_framework.viewsets import ViewSet
-import logging
+from rest_framework import generics
+from django_filters import rest_framework as filters
+from .models import Article
+from .serializers import ArticleSerializer
+from .filters import ArticleFilter
 
-logger = logging.getLogger('loggers')
+class ArticleList(generics.ListCreateAPIView):
+    queryset = Article.objects.all()
+    serializer_class = ArticleSerializer
+    filter_backends = (filters.DjangoFilterBackend,)
+    filterset_class = ArticleFilter
 
-class ArticleViewSet(ViewSet):
-    pass
-
+    
